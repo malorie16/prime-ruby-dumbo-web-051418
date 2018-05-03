@@ -2,8 +2,10 @@
 def prime?(num)
   if num % 2 == 0 || num % 3 == 0
     puts false
-  elsif num == 0 || num == 1 || num == 2
+  elsif num == 0 || num == 1
     puts false
+  elsif num == 2
+    puts true
   else
     puts true
   end
