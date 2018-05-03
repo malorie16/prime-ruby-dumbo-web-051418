@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(num.abs)
+def prime?(num)
   if num.abs == 2
      true
   elsif num.abs == 3
