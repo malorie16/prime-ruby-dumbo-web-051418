@@ -1,12 +1,12 @@
 # Add  code here!
 def prime?(num)
   if num == 2
-    puts true
+     true
   elsif num % 2 == 0 || num % 3 == 0
-    puts false
+     false
   elsif num == 0 || num == 1
-    puts false
+     false
   else
-    puts true
+     true
   end
 end
