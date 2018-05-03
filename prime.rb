@@ -1,12 +1,12 @@
 # Add  code here!
-def prime?(num)
-  if num == 2
+def prime?(num.abs)
+  if num.abs == 2
      true
-  elsif num == 3
+  elsif num.abs == 3
      true
-  elsif num % 2 == 0 || num % 3 == 0
+  elsif num.abs % 2 == 0 || num.abs % 3 == 0
      false
-  elsif num == 0 || num == 1
+  elsif num.abs == 0 || num.abs == 1
      false
   else
      true
